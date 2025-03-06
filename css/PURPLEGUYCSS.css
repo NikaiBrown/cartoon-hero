@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    background-image: url(Illustration35.jpg);
+    background-size: contain;
+    color: white;
+    text-align: center;
+}
+
+header{
+    background-image: url(Illustration35.jpg);
+    background-size: cover;
+    color: purple;
+    padding: 10px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+h1, h2{
+    font-family: "Rubik Glitch", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+ol li{
+    font-family: "Pangolin", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+  
+
+header h1{
+    margin: 20px;
+    font-size: 50px;
+}
+
+header img{
+    border-radius: 50%;
+    border: 3px solid white;
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    background-color: black;
+}
+
+main{
+    padding: 20px;
+}
+
+main img{
+    width: 50%;
+    height: auto;
+    position: relative;
+}
+
+#openmask{
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+#openmask:hover{
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+#sitting{
+    width: 30%;
+}
+
+a{
+    color: crimson;
+    text-decoration: none;
+}
+
+a:hover{
+    color: purple;
+    text-decoration: underline;
+}
+
+h2{
+    color: purple;
+}
+
+p{
+    color: yellow;
+    font-style: italic;
+}
+
+footer p{
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+main h2 p{
+    color: white;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#red{
+    font-family: "Pangolin", serif;
+}
+
+#red:hover{
+    color: crimson;
+}
